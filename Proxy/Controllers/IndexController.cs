@@ -7,9 +7,18 @@ using System.Text.Json;
 using System.Text;
 namespace Proxy.Controllers
 {
-    public class IndexController : Controller
+    /// <summary>
+    /// Controlador de las peticiones
+    /// </summary>
+    [Route("api/[controller]")]
+    [ApiController]
+    public class IndexController : ControllerBase
     {
         private readonly IConfiguration configuration;
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public IndexController(IConfiguration configuration)
         {
             this.configuration = configuration;
@@ -60,7 +69,6 @@ namespace Proxy.Controllers
                 case "DELETE":
                     response = client.DeleteAsync(requestUrl).Result;
                     break;
-
 
             }
 
