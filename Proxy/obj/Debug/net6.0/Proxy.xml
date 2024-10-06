@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Proxy</name>
+    </assembly>
+    <members>
+        <member name="T:Proxy.Controllers.IndexController">
+            <summary>
+            Controlador de las peticiones
+            </summary>
+        </member>
+        <member name="M:Proxy.Controllers.IndexController.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Proxy.Controllers.IndexController.Index(System.String)">
+            <summary>
+            Metodo por donde ingresan las peticiones
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -63,3 +63,6 @@ C:\Users\Lenovo\Documents\Proyectos\Net\ProxyApp\Proxy\obj\Debug\net6.0\refint\P
 C:\Users\Lenovo\Documents\Proyectos\Net\ProxyApp\Proxy\obj\Debug\net6.0\Proxy.pdb
 C:\Users\Lenovo\Documents\Proyectos\Net\ProxyApp\Proxy\obj\Debug\net6.0\Proxy.genruntimeconfig.cache
 C:\Users\Lenovo\Documents\Proyectos\Net\ProxyApp\Proxy\obj\Debug\net6.0\ref\Proxy.dll
+C:\Users\Lenovo\Documents\Proyectos\Net\ProxyApp\Proxy\bin\Debug\net6.0\Program.cs
+C:\Users\Lenovo\Documents\Proyectos\Net\ProxyApp\Proxy\bin\Debug\net6.0\Proxy.xml
+C:\Users\Lenovo\Documents\Proyectos\Net\ProxyApp\Proxy\obj\Debug\net6.0\Proxy.xml

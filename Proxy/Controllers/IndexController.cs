@@ -38,8 +38,11 @@ namespace Proxy.Controllers
             var client = new HttpClient();
             var response = new HttpResponseMessage();
 
+            if (!string.IsNullOrEmpty(Request!.Headers["Authorization"]))
+            {
+                client.DefaultRequestHeaders.Add("Authorization", Request!.Headers["Authorization"].ToString());
+            }
 
-            client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             client.BaseAddress = new Uri(this.configuration["BaseUrl"]);
 
